@@ -4,3 +4,11 @@ format: html
 editor: visual
 ---
 
+### Section 1 {#sec-case-1}
+
+```{r tbl-summary, tbl-cap="Summary of penguin characteristics by species"}
+library("palmerpenguins")
+summary(penguins)
+```
+
+
